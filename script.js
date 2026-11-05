@@ -4,7 +4,7 @@ const fragment=document.createDocumentFragment();
 
 for(let i=0;i<800;i++){
 	const div=document.createElement("div");
-	div.classList.add("box");
+	div.classList.add("square");
 
 	div.addEventListener("mouseenter",(e)=>{
 		const red=Math.floor(Math.random()*256);
