@@ -1,1 +1,28 @@
 /*  your css code here. If applicable */
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+body{
+	width:100vw;
+	height:100vh;
+	display:flex;
+	justify-content: center;
+	align-items: center;
+}
+.container{
+	width:80vw;
+	height:80vh;
+	background-color: black;
+	display:grid;
+	grid-template-columns: repeat(40,1fr);
+	grid-template-rows: repeat(20,1fr);
+	gap:4px;
+}
+.box{
+	background-color:rgb(53,52,52);
+	border-radius:20%;
+	cursor:pointer;
+	transition: backgroundColor 0.2s;
+}
